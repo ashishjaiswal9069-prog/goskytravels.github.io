@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go Sky | Travel Beyond Boundaries</title>
+  <meta name="description" content="Go Sky Travel Agency — flights, holidays, hotels and travel assistance from Karol Bagh, New Delhi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#"><span class="brand-mark">✈</span><span>GO <b>SKY</b></span></a>
+  <nav>
+    <a href="#services">Services</a><a href="#destinations">Destinations</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" href="https://wa.me/918318994438?text=Hi%20Go%20Sky%2C%20I%20would%20like%20to%20plan%20a%20trip." target="_blank">WhatsApp Us</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">TRAVEL • EXPLORE • DISCOVER</p>
+    <h1>Your journey.<br><span>Our expertise.</span></h1>
+    <p class="hero-copy">Discover unforgettable destinations with Go Sky. From flights and hotels to complete holiday packages, we're here to make travel simple.</p>
+    <div class="hero-buttons">
+      <a class="primary" href="#contact">Plan My Trip <span>→</span></a>
+      <a class="secondary" href="#destinations">Explore Destinations</a>
+    </div>
+  </div>
+</section>
+
+<section class="quick">
+  <div><strong>✈</strong><span><b>Flights</b><small>Domestic & International</small></span></div>
+  <div><strong>◉</strong><span><b>Holidays</b><small>Tailor-made packages</small></span></div>
+  <div><strong>⌂</strong><span><b>Hotels</b><small>Stay with confidence</small></span></div>
+  <div><strong>✓</strong><span><b>Travel Assistance</b><small>Support when you need it</small></span></div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-head"><div><p class="eyebrow">WHAT WE DO</p><h2>Everything you need<br>to travel better.</h2></div><p>One trusted partner for your travel plans — from the first search to the journey home.</p></div>
+  <div class="service-grid">
+    <article><div class="icon">✈</div><h3>Flight Booking</h3><p>Compare and arrange domestic and international flights with helpful travel guidance.</p></article>
+    <article><div class="icon">◈</div><h3>Holiday Packages</h3><p>Flexible packages designed around your destination, dates and budget.</p></article>
+    <article><div class="icon">⌂</div><h3>Hotel Booking</h3><p>Find comfortable stays for business trips, family holidays and romantic getaways.</p></article>
+    <article><div class="icon">◎</div><h3>Travel Assistance</h3><p>Practical support to help make your trip smoother from planning to departure.</p></article>
+  </div>
+</section>
+
+<section class="dest-section" id="destinations">
+  <div class="section-head"><div><p class="eyebrow">WHERE WILL YOU GO?</p><h2>Popular destinations.</h2></div><p>Start with a favourite or tell us where you've always wanted to go.</p></div>
+  <div class="dest-grid">
+    <div class="destination dubai"><div><span>01</span><h3>Dubai</h3><p>Luxury • Adventure • Shopping</p></div></div>
+    <div class="destination bali"><div><span>02</span><h3>Bali</h3><p>Beaches • Culture • Escape</p></div></div>
+    <div class="destination maldives"><div><span>03</span><h3>Maldives</h3><p>Islands • Romance • Relax</p></div></div>
+    <div class="destination thailand"><div><span>04</span><h3>Thailand</h3><p>Food • Beaches • Discovery</p></div></div>
+    <div class="destination europe"><div><span>05</span><h3>Europe</h3><p>History • Cities • Experiences</p></div></div>
+    <div class="destination india"><div><span>06</span><h3>India</h3><p>Heritage • Nature • Wonder</p></div></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-photo"></div>
+  <div class="about-copy"><p class="eyebrow">WHY GO SKY?</p><h2>Travel planning<br>without the hassle.</h2><p>Go Sky is a travel agency based in Karol Bagh, New Delhi, focused on making every trip easier to plan and better to remember.</p><div class="ticks"><span>✓ Personalised travel guidance</span><span>✓ Domestic & international journeys</span><span>✓ Friendly support from enquiry to travel</span></div><a class="primary" href="#contact">Talk to Go Sky <span>→</span></a></div>
+</section>
+
+<section class="contact" id="contact">
+  <div><p class="eyebrow">START YOUR JOURNEY</p><h2>Tell us where<br>you want to go.</h2><p>Send your travel requirements and we'll get back to you.</p></div>
+  <form onsubmit="sendWhatsApp(event)">
+    <input id="name" required placeholder="Your name">
+    <input id="phone" required placeholder="Phone / WhatsApp number">
+    <input id="destination" placeholder="Where would you like to go?">
+    <textarea id="message" rows="4" placeholder="Tell us about your dates, travellers and preferences"></textarea>
+    <button class="primary" type="submit">Send Enquiry <span>→</span></button>
+  </form>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">✈</span><span>GO <b>SKY</b></span></a><p>Your journey. Our expertise.</p></div>
+  <div><h4>Contact</h4><p>Karol Bagh, New Delhi</p><p>+91 83189 94438</p><p>ashishjaiswal9069@gmail.com</p></div>
+  <div><h4>Quick links</h4><p><a href="#services">Services</a></p><p><a href="#destinations">Destinations</a></p><p><a href="#contact">Enquire now</a></p></div>
+  <div><h4>Open</h4><p>Mon – Sat</p><p>Travel enquiries welcome</p></div>
+</footer>
+<div class="copyright">© 2026 Go Sky. All rights reserved.</div>
+<script src="script.js"></script>
+</body>
+</html>
